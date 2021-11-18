@@ -49,7 +49,7 @@
         android:backgroundTint="#6FD3CCCC"
         android:elegantTextHeight="true"
         android:focusableInTouchMode="false"
-        android:onClick="Probarr"
+        android:onClick="Probar"
         android:shadowColor="#000000"
         android:shadowRadius="0"
         android:text="@string/probar"
