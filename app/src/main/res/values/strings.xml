@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">AppAdivina</string>
-    <string name="adivina">He pensado un número entre 1 y 100.\n¡Adivina cuál es!</string>
+    <string name="adivina">He pensado un número entre 1 y 100. ¡Adivina cuál es!</string>
     <string name="intentalo">¡Inténtalo!</string>
     <string name="probar">Probar</string>
     <string name="numero">Introduce un número</string>
@@ -8,9 +8,16 @@
     <string name="menor">¿%1$d? ¡Uy! El número que he pensado es menor</string>
     <string name="acertado">¡¡HAS ACERTADO!!</string>
     <plurals name="intentos">
-        <item quantity="one">Te queda %d intento</item>
-        <item quantity="other">Te quedan %d intentos</item>
+        <item quantity="one">%d intento restante</item>
+        <item quantity="other">%d intentos restantes</item>
     </plurals>
     <string name="Perder">Has perdido. El número era %d</string>
     <string name="VolveraJugar">Volver a jugar</string>
+    <string name="rango">Introduce un numero entre 1 y 100</string>
+    <string name="vacio">Introducí un número wacho kuliao</string>
+    <string name="hola">Bienvenido al juego\n ADIVINA MI NÚMERO</string>
+    <string name="cesar">Por: César Arévalo</string>
+    <string name="jugar">EMPEZAR</string>
+    <string name="i">Sólo cuentas con 5 intentos</string>
+
 </resources>
