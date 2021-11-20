@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
-public class Dialogo extends DialogFragment {
-    ADialogo acciones;
+public class DialogoCesar extends DialogFragment {
+    ADialogoCesar acciones;
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstancestate){
@@ -21,14 +21,14 @@ public class Dialogo extends DialogFragment {
         volver.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int r) {
-                acciones.onDialogPositiveClick(Dialogo.this);
+                acciones.onDialogPositiveClick(DialogoCesar.this);
 
             }
         });
         volver.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int r) {
-                acciones.onDialogNegativeClick(Dialogo.this);
+                acciones.onDialogNegativeClick(DialogoCesar.this);
 
             }
         });
@@ -37,6 +37,6 @@ public class Dialogo extends DialogFragment {
 
     public void onAttach(Context contexto){
         super.onAttach(contexto);
-        acciones = (ADialogo) contexto;
+        acciones = (ADialogoCesar) contexto;
     }
 }

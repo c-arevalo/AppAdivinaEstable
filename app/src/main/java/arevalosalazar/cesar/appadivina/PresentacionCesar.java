@@ -8,16 +8,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class Presentacion extends AppCompatActivity {
+public class PresentacionCesar extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_presentacion);
+        setContentView(R.layout.activity_presentacionCesar);
     }
 
     public void onPulsame(View v){
-        Intent i = new Intent(this, MainActivity.class);
+        Intent i = new Intent(this, MainActivityCesar.class);
         startActivity(i);
         Context contexto = getApplicationContext();
         int duracion = Toast.LENGTH_LONG;

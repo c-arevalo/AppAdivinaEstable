@@ -15,7 +15,7 @@ import android.text.TextUtils;
 
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity implements ADialogo {
+public class MainActivityCesar extends AppCompatActivity implements ADialogoCesar {
     /*private final static String STATE_NUM_ELEGIDO = "numeroOculto";
     private final static String STATE_NUM_INTENTOS= "numintentos";
     private static final String STATE_MENSAJE = "tInicio";*/
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements ADialogo {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_mainCesar);
         NumOculto();
         tInicio = findViewById(R.id.texto1);
         et = findViewById(R.id.editTextTextPersonName);
@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity implements ADialogo {
     }
 
     public void lanzarDialogo (){
-        Dialogo d = new Dialogo();
+        DialogoCesar d = new DialogoCesar();
         d.show(getSupportFragmentManager(),"TagDialogo");
     }
 }
