@@ -24,4 +24,8 @@ public class Presentacion extends AppCompatActivity {
         Toast t = Toast.makeText(contexto, R.string.i, duracion);
         t.show();
     }
+
+    public void Salir(View v){
+        finish();
+    }
 }

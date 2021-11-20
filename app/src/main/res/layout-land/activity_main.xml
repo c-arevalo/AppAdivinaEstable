@@ -38,19 +38,6 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/vaj"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
-        android:backgroundTint="#6FD3CCCC"
-        android:text="@string/VolveraJugar"
-        app:iconTint="#AC8888"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.499"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

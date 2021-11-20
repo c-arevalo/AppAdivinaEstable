@@ -14,10 +14,13 @@
     <string name="Perder">Has perdido. El número era %d</string>
     <string name="VolveraJugar">Volver a jugar</string>
     <string name="rango">Introduce un numero entre 1 y 100</string>
-    <string name="vacio">Introducí un número wacho kuliao</string>
+    <string name="vacio">Introduce un número</string>
     <string name="hola">Bienvenido al juego\n ADIVINA MI NÚMERO</string>
     <string name="cesar">Por: César Arévalo</string>
     <string name="jugar">EMPEZAR</string>
     <string name="i">Sólo cuentas con 5 intentos</string>
+    <string name="volver">¿Quieres volver a jugar?</string>
+    <string name="fin">Fin de la partida</string>
+    <string name="salir">Salir</string>
 
 </resources>

@@ -33,14 +33,14 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.366"
+        app:layout_constraintVertical_bias="0.22"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="4dp"
         android:height="55dp"
         android:backgroundTint="#6FD3CCCC"
         android:elegantTextHeight="true"
@@ -59,24 +59,6 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
         app:strokeColor="#F4F1F1" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="197dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="412dp"
-        android:width="310dp"
-        android:cursorVisible="true"
-        android:ems="10"
-        android:hint="@string/numero"
-        android:inputType="textPersonName"
-        android:maxLength="3"
-        android:text=""
-        android:textColorHint="#BAACAC"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.817"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -90,20 +72,25 @@
         app:layout_constraintHorizontal_bias="0.326"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
-        app:layout_constraintVertical_bias="0.954"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/vaj"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="112dp"
-        android:backgroundTint="#6FD3CCCC"
-        android:onClick="jugar"
-        android:text="@string/VolveraJugar"
-        app:iconTint="#AC8888"
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="352dp"
+        android:width="310dp"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="@string/numero"
+        android:inputType="textPersonName"
+        android:maxLength="3"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BAACAC"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.817"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
