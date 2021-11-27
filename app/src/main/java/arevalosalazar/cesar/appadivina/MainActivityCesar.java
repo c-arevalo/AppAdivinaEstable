@@ -30,7 +30,7 @@ public class MainActivityCesar extends AppCompatActivity implements ADialogoCesa
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mainCesar);
+        setContentView(R.layout.activity_maincesar);
         NumOculto();
         tInicio = findViewById(R.id.texto1);
         et = findViewById(R.id.editTextTextPersonName);

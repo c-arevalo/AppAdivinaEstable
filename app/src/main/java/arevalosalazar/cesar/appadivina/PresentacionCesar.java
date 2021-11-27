@@ -13,7 +13,7 @@ public class PresentacionCesar extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_presentacionCesar);
+        setContentView(R.layout.activity_presentacioncesar);
     }
 
     public void onPulsame(View v){
